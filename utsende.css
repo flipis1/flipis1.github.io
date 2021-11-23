@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+}
+
+.hele {
+    margin: 5%;
+    display: grid;
+grid-template-columns: minmax(0,25fr) minmax(0,25fr) minmax(0,25fr) minmax(0,25fr);
+grid-template-rows: auto auto;
+grid-template-areas:
+'text1 text2 text3 text4'
+'text5 . . .';
+gap: 20px;
+}
+
+
+.overskrift {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: #ee7440
+    ;
+
+}
+
+.video {
+    text-align: center;
+    align-items: center;
+}
+
+.text1 {
+    grid-area: text1;
+}
+
+.text2 {
+    grid-area: text2;
+}
+.text3 {
+    grid-area: text3;
+}
+.text4 {
+    grid-area: text4;
+}
+.text5 {
+    grid-area: text5;
+}
